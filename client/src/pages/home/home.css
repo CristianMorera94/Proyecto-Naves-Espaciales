@@ -1,0 +1,42 @@
+.containercard {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  background-color: #f00909; /* Color de fondo para containercard */
+}
+
+.nar {
+  display: flex;
+  background-color: #290af1;
+}
+.filter{
+  background-color: aqua;
+}
+.body2{
+  display: flex;
+  background-color: #fdf400;
+  width: 98%;
+}
+.prop{
+  background-color: #ff00d0;
+  width: 15%;
+}
+.card1 {
+  margin-top: 20px; /* O cualquier otro valor de margen que desees */
+  background-color: #bafd04;
+  justify-content: space-around;
+  width: auto;
+  margin-bottom: 50px;
+  padding: 1em; /* Color de fondo para card */
+  /* Estilos adicionales para la clase "card" */
+}
+
+.card2 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, 2fr);
+  grid-template-rows: repeat(1, 1fr);
+}
